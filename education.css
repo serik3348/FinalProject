@@ -1,0 +1,125 @@
+body{
+
+    background-color: cornsilk;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    color:
+    rgb(51, 51, 51) 
+    rgb(51, 51, 51);
+    line-height: 1.6;
+
+    margin: 0;
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+}
+*::before
+*::after
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+.container {
+    width: 100%;
+    max-width:  1200px;
+    margin: 0 auto;
+}
+
+
+nav{
+    width: 70vw;
+     display: flex;
+    background-color:  #151B1f;
+     padding: 20px;
+     border-radius: 15px;
+     justify-content: center;
+    margin: auto;
+     align-items: center;
+     margin-bottom: 180px ;
+     margin-top: 0px;
+    opacity: 0.8;
+    
+
+     
+ }
+ 
+ 
+ .nav__link{
+    color:#a7a397;
+ text-decoration: none;
+ padding: 0 25px;
+ font-weight: 600;
+ font-size: 20px;
+ margin: auto;
+ }
+ 
+ 
+ 
+ 
+ @media screen and (max-width:600px){
+     nav{
+         max-width: 100%;
+         flex-direction: column;
+          
+     }
+     .nav__link{
+         padding: 20px 30px;
+     }
+     .nav >a{
+      padding-top: 5px;
+      padding-bottom: 5px;
+     }
+     
+     
+    
+ }
+.nav__link:hover {
+    color: 
+    rgb(26, 214, 142);
+}
+ .nav__link:hover:after {
+    display: block;
+ }
+.edu 
+{
+    margin-top:100px;
+    margin-left: 500px;
+}
+.inf
+{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.univer {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+  }
+  
+  .univer > div {
+    background-color: #f1f1f1;
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  @media screen and (max-width:850px){
+  .univer{
+      flex-direction: column;
+  }
+  h1{
+      width: 100%;
+  }
+
+    
+    
+   
+}
